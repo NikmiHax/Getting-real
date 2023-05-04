@@ -9,17 +9,17 @@ public class MachineRepository
     //    machines.Add(machine);
     //}
 
-    public Machine GetMachine(int machineId) // Denne metode henter en maskine fra vores maskine liste i domænelaget
-    {
-        foreach (Machine machine in machines)
-        {
-            if (machine.MachineId == machineId)
-            {
-                return machine;
-            }
-        }
-        return null;
-    }
+    //public Machine GetMachine(int machineId) // Denne metode henter en maskine fra vores maskine liste i domænelaget
+    //{
+    //    foreach (Machine machine in machines)
+    //    {
+    //        if (machine.MachineId == machineId)
+    //        {
+    //            return machine;
+    //        }
+    //    }
+    //    return null;
+    //}
 
     //public void DeleteMachine(int machineId) // Denne metode sletter en maskine fra vores liste i domænelaget
     //{
