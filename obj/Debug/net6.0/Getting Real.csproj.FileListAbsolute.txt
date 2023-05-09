@@ -1,0 +1,17 @@
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\bin\Debug\net6.0\Getting Real.exe
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\bin\Debug\net6.0\Getting Real.deps.json
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\bin\Debug\net6.0\Getting Real.runtimeconfig.json
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\bin\Debug\net6.0\Getting Real.dll
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\bin\Debug\net6.0\Getting Real.pdb
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.csproj.AssemblyReference.cache
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.AssemblyInfoInputs.cache
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.AssemblyInfo.cs
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.csproj.CoreCompileInputs.cache
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.dll
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\refint\Getting Real.dll
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.pdb
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.genruntimeconfig.cache
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\ref\Getting Real.dll
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\obj\Debug\net6.0\Getting Real.csproj.ResolveComReference.cache
