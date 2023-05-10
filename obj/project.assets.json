@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ervin\\.nuget\\packages\\": {}
+    "C:\\Users\\msn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\Getting Real.csproj",
+      "projectUniqueName": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Skole Shared\\Getting-real\\Getting Real.csproj",
       "projectName": "Getting Real",
-      "projectPath": "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\Getting Real.csproj",
-      "packagesPath": "C:\\Users\\Ervin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\obj\\",
+      "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Skole Shared\\Getting-real\\Getting Real.csproj",
+      "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Skole Shared\\Getting-real\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ervin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
