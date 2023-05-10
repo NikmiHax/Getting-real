@@ -7,6 +7,7 @@ using System.IO;
 using Microsoft.Office.Interop.Excel;
 using System.Globalization;
 using System.Threading.Tasks.Sources;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace Getting_Real
 {
@@ -50,7 +51,7 @@ namespace Getting_Real
 
         public List<Machine> readExcel()
         {
-            string filePath = "C:\\Users\\Ervin\\Documents\\side projects\\Getting Real master\\Getting-Real-master\\DelAfRAP-000478simplificeretA(134)1.xlsx";
+            string filePath = "C:\\Users\\msn\\OneDrive\\Skrivebord\\Skole Shared\\Getting-real\\excelfil.xlsx";
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
             Workbook wb;
             Worksheet ws;
