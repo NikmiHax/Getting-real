@@ -145,6 +145,16 @@ public class MachineRepository
     {
         return machines.OrderBy(machine => machine.Coordinates).ToList();
     }
+
+    public List<Machine> SortByLubricantOils()
+    {
+        return machines.OrderBy(machine => machine.LubricationOilType).ToList();
+    }
+
+    public List<Machine> SortByGreases()
+    {
+        return machines.OrderBy(machine => machine.GreaseType).ToList();
+    }
 }
 
 

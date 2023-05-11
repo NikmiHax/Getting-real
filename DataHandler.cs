@@ -51,7 +51,7 @@ namespace Getting_Real
 
         public List<Machine> readExcel()
         {
-            string filePath = "C:\\Users\\msn\\OneDrive\\Skrivebord\\Skole Shared\\Getting-real\\excelfil.xlsx";
+            string filePath = "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\Getting Real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
             Workbook wb;
             Worksheet ws;
@@ -94,6 +94,7 @@ namespace Getting_Real
 
             return machines;
         }
+
 
         
     }

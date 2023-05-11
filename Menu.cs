@@ -10,39 +10,56 @@ namespace Getting_Real
     {
         int input;
         MachineRepository machineRepository = new MachineRepository();
+        SortClass sortClass = new SortClass();
 
-    public List<Machine> Show()
+        public void Show()
         {
-        
-
-        Console.WriteLine("MENU:\n Vælg 1: \n Vælg 2:");
-            string inputStr = Console.ReadLine();
-            input = int.Parse(inputStr); // det ser got ud, er næsten tilbage! Hilsen Henrik
 
 
-            //    string input = Console.ReadLine();
-            //    int inputoutput;
-            //    var result = int32.TryParse(input, out inputoutput);
+            Console.WriteLine("MENU: " +
+                              "\nSorter efter koordinater tryk 1: " +
+                              "\nSorter efter uge tryk 2: " +
+                              "\nSorter efter måned tryk 3: " +
+                              "\nSorter efter år tryk 4: " +
+                              "\nSorter efter olie type tryk 5: " +
+                              "\nSorter efter fedt type tryk 6: ");
 
-            // int input = int.Parse(Console.Readline());
+
+                              string inputStr = Console.ReadLine();
+            input = int.Parse(inputStr);
 
             switch (input)
             {
+                case 1:
+                    sortClass.SortByCoordinates();
+                    break;
 
-            case 1:
-                    return machineRepository.SortByCoordinates();
-            case 2:
-                    return machineRepository.SortByWeek();
-            case 3:
-                    return machineRepository.SortByMonth();
-            case 4:
-                    return machineRepository.SortByYear();
-            default:
-                Console.WriteLine("Ugyldigt valg");
-                    return new List<Machine>();
+                case 2:
+                    sortClass.SortByWeek();
+                    break;
 
+                case 3:
+                    sortClass.SortByMonth();
+                    break;
+
+                case 4:
+                    sortClass.SortByYear();
+                    break;
+
+                case 5:
+                    sortClass.SortByLubricantOils();
+                    break;
+
+                case 6:
+                    sortClass.SortByGreases();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid input");
+                    break;
             }
         }
-
     }
+
 }
+
