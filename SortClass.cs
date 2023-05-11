@@ -24,7 +24,7 @@ namespace Getting_Real
             }
 
             List<Machine> sortedByCoordinates = machineRepository.SortByCoordinates();
-            foreach (var machine in sortedByCoordinates.Where(machine => machine.Interval.ToLower() == "1"))
+            foreach (var machine in sortedByCoordinates)
             {
                 Console.WriteLine(machine.ToString());
             }
@@ -46,11 +46,12 @@ namespace Getting_Real
             }
 
             List<Machine> sortedByMonth = machineRepository.SortByMonth();
-            foreach (var machine in sortedByMonth.Where(machine => machine.Interval.ToLower() == "1"))
+            foreach (var machine in sortedByMonth)
             {
                 Console.WriteLine(machine.ToString());
             }
         }
+
 
         public void SortByYear()
         {
