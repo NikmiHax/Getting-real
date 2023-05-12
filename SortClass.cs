@@ -30,7 +30,7 @@ namespace Getting_Real
             }
         }
 
-        public void SortByMonth()
+        public List<Machine> SortByMonth()
         {
             MachineRepository machineRepository = new MachineRepository();
 
@@ -46,14 +46,12 @@ namespace Getting_Real
             }
 
             List<Machine> sortedByMonth = machineRepository.SortByMonth();
-            foreach (var machine in sortedByMonth)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+
+            return sortedByMonth.ToList();
         }
 
 
-        public void SortByYear()
+        public List<Machine> SortByYear()
         {
             MachineRepository machineRepository = new MachineRepository();
 
@@ -69,13 +67,11 @@ namespace Getting_Real
             }
 
             List<Machine> sortedByYear = machineRepository.SortByYear();
-            foreach (var machine in sortedByYear)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+            
+            return sortedByYear.ToList();
         }
 
-        public void SortByWeek()
+        public List<Machine> SortByWeek()
         {
             MachineRepository machineRepository = new MachineRepository();
 
@@ -91,10 +87,8 @@ namespace Getting_Real
             }
 
             List<Machine> sortedByWeek = machineRepository.SortByWeek();
-            foreach (var machine in sortedByWeek)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+            
+            return sortedByWeek.ToList();
         }
 
         public void SortByLubricantOils()

@@ -49,3 +49,20 @@ C:\Users\45402\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Skrivebord
 C:\Users\45402\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Skrivebord\Getting Real\bin\Debug\net6.0\Getting Real.pdb
 C:\Users\45402\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Skrivebord\Getting Real\obj\Debug\net6.0\Getting Real.genruntimeconfig.cache
 C:\Users\45402\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Skrivebord\Getting Real\obj\Debug\net6.0\ref\Getting Real.dll
+C:\Users\Ervin\Desktop\test repository\Getting-real\bin\Debug\net6.0\Getting Real.exe
+C:\Users\Ervin\Desktop\test repository\Getting-real\bin\Debug\net6.0\Getting Real.deps.json
+C:\Users\Ervin\Desktop\test repository\Getting-real\bin\Debug\net6.0\Getting Real.runtimeconfig.json
+C:\Users\Ervin\Desktop\test repository\Getting-real\bin\Debug\net6.0\Getting Real.dll
+C:\Users\Ervin\Desktop\test repository\Getting-real\bin\Debug\net6.0\Getting Real.pdb
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.csproj.AssemblyReference.cache
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.csproj.ResolveComReference.cache
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.AssemblyInfoInputs.cache
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.AssemblyInfo.cs
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.csproj.CoreCompileInputs.cache
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.dll
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\refint\Getting Real.dll
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.pdb
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\Getting Real.genruntimeconfig.cache
+C:\Users\Ervin\Desktop\test repository\Getting-real\obj\Debug\net6.0\ref\Getting Real.dll

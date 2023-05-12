@@ -11,7 +11,6 @@ namespace Getting_Real
         int input;
         MachineRepository machineRepository = new MachineRepository();
         SortClass sortClass = new SortClass();
-
         public void Show()
         {
 
@@ -25,7 +24,7 @@ namespace Getting_Real
                               "\nSorter efter fedt type tryk 6: ");
 
 
-                              string inputStr = Console.ReadLine();
+            string inputStr = Console.ReadLine();
             input = int.Parse(inputStr);
 
             switch (input)
@@ -35,15 +34,80 @@ namespace Getting_Real
                     break;
 
                 case 2:
-                    sortClass.SortByWeek();
+                    Console.Clear();
+
+                    Console.WriteLine("MENU: " +
+                                      "\nSorter efter indtastet interval (1, 2, 6, etc.) eller indtast 0 for at vise alle: ");
+
+                    string inputIntervalWeek = Console.ReadLine();
+                    List<Machine> sortedByWeek;
+
+                    if (inputIntervalWeek == "0")
+                    {
+                        sortedByWeek = sortClass.SortByWeek();
+                    }
+                    else
+                    {
+                        sortedByWeek = sortClass.SortByWeek().Where(machine => machine.Interval == inputIntervalWeek).ToList();
+
+                    }
+
+                    foreach (var machine in sortedByWeek)
+                    {
+                        Console.WriteLine(machine.ToString());
+                    }
                     break;
 
                 case 3:
-                    sortClass.SortByMonth();
+                    Console.Clear();
+
+                    Console.WriteLine("MENU: " +
+                                      "\nSorter efter indtastet interval (1, 2, 6, etc.) eller indtast 0 for at vise alle: ");
+
+                    string inputIntervalMonth = Console.ReadLine();
+                    List<Machine> sortedByMonth;
+
+                    if (inputIntervalMonth == "0")
+                    {
+                        sortedByMonth = sortClass.SortByMonth();
+                    }
+                    else
+                    {
+                        sortedByMonth = sortClass.SortByMonth().Where(machine => machine.Interval == inputIntervalMonth).ToList();
+
+                    }
+
+                    foreach (var machine in sortedByMonth)
+                    {
+                        Console.WriteLine(machine.ToString());
+                    }
+                    Console.WriteLine(sortedByMonth.Count);
                     break;
 
                 case 4:
-                    sortClass.SortByYear();
+                    Console.Clear();
+
+                    Console.WriteLine("MENU: " +
+                                      "\nSorter efter indtastet interval (1, 2, 6, etc.) eller indtast 0 for at vise alle: ");
+
+                    string inputIntervalYear = Console.ReadLine();
+                    List<Machine> sortedByYear;
+
+                    if (inputIntervalYear == "0")
+                    {
+                        sortedByYear = sortClass.SortByYear();
+                    }
+                    else
+                    {
+                        sortedByYear = sortClass.SortByYear().Where(machine => machine.Interval == inputIntervalYear).ToList();
+
+                    }
+
+                    foreach (var machine in sortedByYear)
+                    {
+                        Console.WriteLine(machine.ToString());
+                    }
+                    Console.WriteLine(sortedByYear.Count);
                     break;
 
                 case 5:
