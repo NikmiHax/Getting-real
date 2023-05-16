@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "C+UKK9rBArHbhBCNR26JzEP6L6LOmmhwLXHhHI0RpXRzZs5GRme5VrAFiQpPLnxXWTlXoWD44KsnNAP2R/I+1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+=======
+  "dgSpecHash": "+Fg5ftCpewsL4E7qsP4ngSbEqPV+Mvxnng5Hyt6vAk2roxsBKO03hPY0yGZq/dB4zKESQeg2LurDR4LdgK82wA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+>>>>>>> parent of 7cb6991 (Merge pull request #1 from NikmiHax/Ervin_uden_fejl)
   "expectedPackageFiles": [
     "C:\\Users\\msn\\.nuget\\packages\\epplus\\6.2.2\\epplus.6.2.2.nupkg.sha512",
     "C:\\Users\\msn\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",

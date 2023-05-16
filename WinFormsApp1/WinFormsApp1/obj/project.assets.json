@@ -951,11 +951,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
       "projectName": "WinFormsApp1",
       "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
       "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\WinFormsApp1\\WinFormsApp1\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "projectName": "WinFormsApp1",
+      "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\obj\\",
+>>>>>>> parent of 7cb6991 (Merge pull request #1 from NikmiHax/Ervin_uden_fejl)
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -972,8 +980,13 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\Getting-Real\\Getting Real.csproj": {
               "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\getting-real\\Getting-Real\\Getting Real.csproj"
+=======
+            "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj": {
+              "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj"
+>>>>>>> parent of 7cb6991 (Merge pull request #1 from NikmiHax/Ervin_uden_fejl)
             }
           }
         }
