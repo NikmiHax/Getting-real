@@ -51,7 +51,7 @@ namespace Getting_Real
 
         public List<Machine> readExcel()
         {
-            string filePath = "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\Getting Real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
+            string filePath = "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
             Workbook wb;
             Worksheet ws;
@@ -95,7 +95,20 @@ namespace Getting_Real
             return machines;
         }
 
+        public void SaveList(List<Machine> machines)
+        {
+            FileStream fileStream = new FileStream("tekst.txt", FileMode.OpenOrCreate);
+            StreamWriter streamWriter = new StreamWriter(fileStream);
 
-        
+            foreach (var machine in machines)
+            {
+                streamWriter.WriteLine(machine.ToString());
+            }
+
+            streamWriter.Close();
+            fileStream.Dispose();
+        }
+
+
     }
 }

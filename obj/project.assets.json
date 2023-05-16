@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\45402\\.nuget\\packages\\": {}
+    "C:\\Users\\Ervin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\Getting Real\\Getting Real.csproj",
+      "projectUniqueName": "C:\\Users\\Ervin\\Desktop\\test repository 2\\Getting-real\\Getting Real.csproj",
       "projectName": "Getting Real",
-      "projectPath": "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\Getting Real\\Getting Real.csproj",
-      "packagesPath": "C:\\Users\\45402\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\Getting Real\\obj\\",
+      "projectPath": "C:\\Users\\Ervin\\Desktop\\test repository 2\\Getting-real\\Getting Real.csproj",
+      "packagesPath": "C:\\Users\\Ervin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ervin\\Desktop\\test repository 2\\Getting-real\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\45402\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ervin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

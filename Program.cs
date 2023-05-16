@@ -8,8 +8,6 @@ namespace Getting_Real
         {
             Menu menu = new Menu();
 
-
-
             //List<Machine> sortedMachines = machineRepository.SortByCoordinates();
 
             //sortedMachines = machineRepository.SortByCoordinates();

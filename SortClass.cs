@@ -6,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace Getting_Real
 {
-    internal class SortClass
+    public class SortClass
     {
-        public void SortByCoordinates()
+        MachineRepository machineRepository = new MachineRepository();
+
+        DataHandler handler = new DataHandler();
+
+        List<Machine> machines = new List<Machine>();
+
+        public SortClass()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
             machines = handler.readExcel();
+        }
 
+        public List<Machine> SortByCoordinates()
+        {
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
@@ -28,117 +31,102 @@ namespace Getting_Real
             {
                 Console.WriteLine(machine.ToString());
             }
+
+            return sortedByCoordinates.ToList();
         }
 
-        public void SortByMonth()
+        public List<Machine> SortByMonth()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
-            machines = handler.readExcel();
-
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
             }
 
             List<Machine> sortedByMonth = machineRepository.SortByMonth();
-            foreach (var machine in sortedByMonth)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+
+            return sortedByMonth.ToList();
         }
 
 
-        public void SortByYear()
+        public List<Machine> SortByYear()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
-            machines = handler.readExcel();
-
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
             }
 
             List<Machine> sortedByYear = machineRepository.SortByYear();
-            foreach (var machine in sortedByYear)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+
+            return sortedByYear.ToList();
         }
 
-        public void SortByWeek()
+        public List<Machine> SortByWeek()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
-            machines = handler.readExcel();
-
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
             }
 
             List<Machine> sortedByWeek = machineRepository.SortByWeek();
-            foreach (var machine in sortedByWeek)
-            {
-                Console.WriteLine(machine.ToString());
-            }
+
+            return sortedByWeek.ToList();
         }
 
-        public void SortByLubricantOils()
+        public List<Machine> SortByLubricantOils()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
-            machines = handler.readExcel();
-
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
             }
 
-            List<Machine> sortedByWeek = machineRepository.SortByLubricantOils();
-            foreach (var machine in sortedByWeek)
+            List<Machine> sortedByLubricantOils = machineRepository.SortByLubricantOils();
+            foreach (var machine in sortedByLubricantOils)
             {
                 Console.WriteLine(machine.ToString());
             }
+
+            return sortedByLubricantOils.ToList();
         }
 
-        public void SortByGreases()
+        public List<Machine> SortByGreases()
         {
-            MachineRepository machineRepository = new MachineRepository();
-
-            DataHandler handler = new DataHandler();
-
-            List<Machine> machines = new List<Machine>();
-
-            machines = handler.readExcel();
-
             foreach (var machine in machines)
             {
                 machineRepository.AddMachine(machine);
             }
 
-            List<Machine> sortedByWeek = machineRepository.SortByGreases();
-            foreach (var machine in sortedByWeek)
+            List<Machine> sortedByGreases = machineRepository.SortByGreases();
+            foreach (var machine in sortedByGreases)
             {
                 Console.WriteLine(machine.ToString());
             }
+
+            return sortedByGreases.ToList();
+        }
+
+        public void ShowDataHandlerMenu(List<Machine> machines)
+        {
+            Console.WriteLine("LIST_MENU: " +
+                              "\nGem liste tryk 1: " +
+                              "\nTilbage til hovedmenu tryk 2: ");
+
+            string inputStr = Console.ReadLine();
+            int input = int.Parse(inputStr);
+
+            switch (input)
+            {
+                case 1:
+                    handler.SaveList(machines);
+                    break;
+
+                case 2:
+                    Console.Clear();
+                    Menu menu = new Menu();
+                    menu.Show();
+                    break;
+            }
+
+
         }
     }
 }

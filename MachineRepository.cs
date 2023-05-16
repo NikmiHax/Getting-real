@@ -14,16 +14,9 @@ public class MachineRepository
         machines.Add(machine);
     }
 
-    //public Machine GetMachine(int machineId) // Denne metode henter en maskine fra vores maskine liste i domænelaget
+    //public List<Machine> GetMachines() // Denne metode henter en maskine fra vores maskine liste i domænelaget
     //{
-    //    foreach (Machine machine in machines)
-    //    {
-    //        if (machine.MachineId == machineId)
-    //        {
-    //            return machine;
-    //        }
-    //    }
-    //    return null;
+    //    return machines;
     //}
 
     //public void DeleteMachine(int machineId) // Denne metode sletter en maskine fra vores liste i domænelaget
@@ -136,7 +129,7 @@ public class MachineRepository
     {
         foreach (var machine in machines)
         {
-            machine.Coordinates = machine.Coordinates.Substring(0, 4) ;
+            machine.Coordinates = machine.Coordinates.Substring(0, 4);
         }
         return machines;
     }
